@@ -76,19 +76,19 @@ st.write("**You selected:**", page)
 #Create conversion for model to understand
 if page == "Less than $10,000":
     a = 1
-elif page == "$10,000 to under $20,000":
+elif page == "10,000 to under $20,000":
     a = 2
-elif page == "$20,000 to under $30,000":
+elif page == "20,000 to under $30,000":
     a = 3
-elif page == "$30,000 to under $40,000":
+elif page == "30,000 to under $40,000":
     a = 4
-elif page == "$40,000 to under $50,000":
+elif page == "40,000 to under $50,000":
     a = 5
-elif page == "$50,000 to under $75,000":
+elif page == "50,000 to under $75,000":
     a = 6
-elif page == "$75,000 to under $100,000":
+elif page == "75,000 to under $100,000":
     a = 7
-elif page == "$100,000 to under $150,000":
+elif page == "100,000 to under $150,000":
     a = 8
 else:
     a = 9

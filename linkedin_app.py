@@ -95,7 +95,7 @@ else:
 
 
 #Education button
-page_names2 = ["Less than high school", "High school incomplete", "High school graduate", "Some college, no degree", "Two-year associate degree from college or university", "Bachelor's degree (e.g., BS, BA, AB)", "Some graduate school", "Post graduate/professional degree (e.g., MA, MS, MBA, PhD, MD, JD"]
+page_names2 = ["Less than high school", "High school incomplete", "High school graduate", "Some college, no degree", "Two-year associate degree from college or university", "Bachelor's degree (e.g., BS, BA, AB)", "Some graduate school", "Post graduate/professional degree (e.g., MA, MS, MBA, PhD, MD, JD)"]
 
 page2 = st.radio("Select your highest level of education", page_names2)
 st.write("**You selected:**", page2)

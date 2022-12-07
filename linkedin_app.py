@@ -93,7 +93,6 @@ elif page == "$100,000 to under $150,000":
 else:
     a = 9
 
-st.write("#")
 
 #Education button
 page_names2 = ["Less than high school", "High school incomplete", "High school graduate", "Some college, no degree", "Two-year associate degree from college or university", "Bachelor's degree (e.g., BS, BA, AB)", "Some graduate school", "Post graduate/professional degree (e.g., MA, MS, MBA, PhD, MD, JD"]
@@ -119,7 +118,6 @@ elif page2 == "Some graduate school":
 else:
     b = 8
 
-st.write("#")
 
 #Parent status select
 page_names3 = ["Yes", "No"]
@@ -134,7 +132,7 @@ if page3 == "Yes":
 else:
     c = 0
 
-st.write("#")
+
 
 #Marital status select
 page_names4 = ["Married", "Not married or other"]
@@ -149,7 +147,7 @@ if page4 == "Married":
 else:
     d = 0
 
-st.write("#")
+
 
 #Gender status select
 page_names5 = ["Male", "Female"]
@@ -164,13 +162,13 @@ if page5 == "Female":
 else:
     e = 0
 
-st.write("#")
+
 
 #Age selection
 number = st.number_input("Please select your age", min_value = 16, max_value = 98)
 st.write("Your age is", number)
 
-st.write("#")
+
 
 #Create button to run the model
 if st.button("Click to predict!"):
